@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>MyDOs</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" type="text/css" rel="stylesheet" media="all">
+    <link href="http://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700" type="text/css" rel="stylesheet" media="all">
+    <link href="assets/css/main.min.css" type="text/css" rel="stylesheet">
+  </head>
+  <body>
+
+    <div class="container">
+      <div id="saveItemForm"></div>
+      <div class="reorder-items">
+        <button class="btn btn-sm btn-default"
+                onclick="MyDOs.data.exampleRows()">Set Default Items</button>
+        <button class="btn btn-sm btn-default"
+                id="reorderItems"
+                onclick="MyDOs.reorderItems()">Reorder</button>
+      </div>
+      <div id="myDOsContent"></div>
+    </div>
+
+    <div id="modalPlaceholder"></div>
+
+    <script src="app/js/settings/settings.js"></script>
+    <script src="app/js/data/data.js"></script>
+    <script src="app/js/dom/dom.js"></script>
+    <script src="app/js/index/rowTemplate.js"></script>
+    <script src="app/js/index/renderTable.js"></script>
+    <script src="app/js/index/indexItemsList.js"></script>
+    <script src="app/js/create/create.js"></script>
+    <script src="app/js/create/addItemFormView.js"></script>
+    <script src="app/js/create/addLastItem.js"></script>
+    <script src="app/js/delete/deleteRow.js"></script>
+    <script src="app/js/index/editModalTemplate.js"></script>
+    <script src="app/js/index/deleteModalTemplate.js"></script>
+    <script src="app/js/edit/editRow.js"></script>
+    <script src="app/js/index/reorderItems.js"></script>
+
+  </body>
+</html>
