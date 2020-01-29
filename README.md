@@ -17,3 +17,7 @@ http://mydos.uxpd.net/doc/global.html
 
 #### Author ####
 Anton Radev http://antonradev.com - 2016
+
+MyDoes elements are used in the UI development of https://bvop.org
+Thanks for supporting,
+The creator
